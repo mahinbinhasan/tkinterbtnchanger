@@ -2,7 +2,7 @@ from tkinter import *
 root = Tk()
 root.title("Mahin Button Changer")
 root.geometry("500x500")
-
+root.configure(bg="white")
 stop_button = PhotoImage(file='Images/1.png')
 play_button = PhotoImage(file='Images/2.png')
 y = 1
